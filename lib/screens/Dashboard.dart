@@ -18,10 +18,10 @@ class DashboardState extends State<Dashboard> {
         child: IndexedStack(
           index: _selectedIndex,
           children: <Widget>[
-            HomeScreen(),
-            Text('My Policies'),
+            MyPolicies(),
             Text('Local Hospital'),
             Text('Raise Claim'),
+            Text('Book Services'),
           ],
         ),
       ),

@@ -5,17 +5,17 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:image_picker/image_picker.dart';
 
-class HomeScreen extends StatefulWidget {
+class MyPolicies extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return HomeScreenState();
+    return MyPoliciesnState();
   }
 }
 
-class HomeScreenState extends State<HomeScreen> {
-  String locality;
-  String city;
-  String state;
+class MyPoliciesnState extends State<MyPolicies> {
+  String locality = "";
+  String city = "";
+  String state = "";
   File _image;
 
   @override
